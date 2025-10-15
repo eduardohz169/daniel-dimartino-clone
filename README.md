@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Daniel Di Martino - Website Clone
 
-## Getting Started
+A professional website clone of Daniel Di Martino's personal site, built for educational purposes.
 
-First, run the development server:
+## 🚀 Demo
+
+View the live site: [Coming Soon]
+
+## ✨ Features
+
+- **Responsive Design** - Fully responsive across all devices
+- **Modern UI/UX** - Clean and professional design with smooth animations
+- **Multiple Sections:**
+  - Hero section with background image
+  - Speaker section showcasing topics
+  - Economist section highlighting research
+  - Media appearances showcase
+  - About section with biography
+  - Inspirational quote section
+  - Affiliations with organization cards
+  - Contact form
+  - Social media integration
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15.3.2
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Font:** Libre Baskerville (serif) & Inter (sans-serif)
+- **Build Tool:** Bun
+- **Deployment:** Netlify
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/eduardohz169/daniel-dimartino-clone.git
+
+# Navigate to project directory
+cd daniel-dimartino-clone
+
+# Install dependencies
+bun install
+
+# Run development server
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+daniel-dimartino-clone/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx          # Main homepage
+│   │   ├── layout.tsx         # Root layout
+│   │   └── globals.css        # Global styles
+│   ├── components/
+│   │   └── ui/                # shadcn/ui components
+│   └── lib/
+│       └── utils.ts           # Utility functions
+├── public/                    # Static assets
+└── package.json
+```
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Fonts
+The project uses Google Fonts:
+- **Libre Baskerville** for headings
+- **Inter** for body text
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Colors
+- Primary: Black (#000000)
+- Background: White (#FFFFFF)
+- Accent: Gray shades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Available Scripts
 
-## Deploy on Vercel
+```bash
+bun run dev      # Start development server
+bun run build    # Build for production
+bun run start    # Start production server
+bun run lint     # Run ESLint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is configured for deployment on Netlify. The `netlify.toml` configuration is included.
+
+To deploy:
+
+1. Push your code to GitHub
+2. Connect your repository to Netlify
+3. Deploy!
+
+## 📄 License
+
+This project is for educational purposes only.
+
+## 🙏 Acknowledgments
+
+- Original website: [danieldimartino.com](https://www.danieldimartino.com/)
+- Built with [Same](https://same.new)
+
+---
+
+**Note:** This is a clone created for educational purposes to demonstrate web development skills.
