@@ -1,0 +1,22 @@
+{
+  "name": "daniel-dimartino-clone",
+  "version": "1.0.0",
+  "description": "Professional website clone built with Next.js and Tailwind CSS",
+  "framework": "nextjs",
+  "packageManager": "bun",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "features": [
+    "typescript",
+    "tailwindcss",
+    "shadcn-ui",
+    "responsive-design",
+    "next-app-router"
+  ],
+  "ports": {
+    "dev": 3000
+  }
+}
